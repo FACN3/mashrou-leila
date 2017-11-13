@@ -7,8 +7,9 @@
 ## What is the project:
 
 build a simple web app that include two API and use the results to update the DOM.
-### ***[The Guardian](https://www.theguardian.com/international)***
-### ***[Musixmatch](https://musixmatch.com/)***
+
+***[The Guardian](https://www.theguardian.com/international)***
+***[Musixmatch](https://musixmatch.com/)***
 
 ## How
 
