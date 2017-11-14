@@ -14,9 +14,6 @@ build a simple web app that include two API and use the results to update the DO
 
 [![The Guardian](https://static.guim.co.uk/sitecrumbs/Guardian.gif)](https://www.theguardian.com/international)
 
-
-[![Musixmatch](https://s.mxmcdn.net/site/images/logo.svg)](hthttp://www.biznesliga.com.pl/assets/2_LOGOTYPY/MORELE.png)
-
 ## How:
 
 With pure luck i guess :stuck_out_tongue_winking_eye:
