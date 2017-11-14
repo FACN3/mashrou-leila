@@ -7,7 +7,7 @@
 
 
     console.log(document.getElementById('button'));
-    document.getElementById('button').addEventListener('submit', function(event) {
+    document.getElementById('button').addEventListener('button', function(event) {
       var search_request = document.getElementById('search').value;
 
 
