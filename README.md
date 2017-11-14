@@ -19,12 +19,13 @@ build a simple web app that include two API and use the results to update the DO
 
 ## **API's:** (Clickable mages)
 
-<a href="https://twitter.com/">
-<img alt="Twitter" src="https://www.techspot.com/images2/downloads/topdownload/2014/05/twitter.jpg" width="100">
-</a>
-<br>
+
 <a href="https://www.theguardian.com/international">
 <img alt="The Guardian" src="https://icould.com/files/2012/01/guardian-logo-300x53.jpg" width="150">
+</a>
+<br>
+<a href="https://twitter.com/">
+<img alt="Twitter" src="https://www.techspot.com/images2/downloads/topdownload/2014/05/twitter.jpg" width="100">
 </a>
 <br>
 <a href="https://www.theguardian.com/international">
