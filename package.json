@@ -1,0 +1,22 @@
+{
+  "name": "mashrou-leila",
+  "version": "1.0.0",
+  "description": ":see_no_evil: ***[Amir](https://github.com/Amirk390)*** :see_no_evil: :person_with_blond_hair: ***[Pavel](https://github.com/prodionov)*** :person_with_blond_hair: :rage3: ***[Ghassan](https://github.com/ghassanmas)*** :rage3: :sun_with_face:  ***[Hoslack](https://github.com/hoslack)*** :sun_with_face:",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACN3/mashrou-leila.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FACN3/mashrou-leila/issues"
+  },
+  "homepage": "https://github.com/FACN3/mashrou-leila#readme"
+}
