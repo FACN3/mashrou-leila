@@ -6,15 +6,15 @@
 
 
 
-    console.log(document.getElementById('button'));
-    document.getElementById('button').addEventListener('button', function(event) {
+    document.getElementById('button').addEventListener('submit', function(event) {
       var search_request = document.getElementById('search').value;
-
+      console.log('you clicked the button');
 
       xhr.onreadystate = function() {
         if (readyState == 4 && xhr.status == 200) {
+          console.log('hello amir');
           var guardian_obj = JSON.parase(xhr.responseText);
-          //var image =
+          console.log(guardian_obj);
           var link = gif_obj.response.results[1].webUrl + guardian_key;
           console.log(link)
         }
@@ -24,7 +24,7 @@
     });
 
 
-    console.log(xhr);
+    console.log('xhr',xhr);
 
   }
 
