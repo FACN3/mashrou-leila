@@ -17,32 +17,32 @@ padding-top: 100px;
 }
 
 
-
-h1{
-
-	margin: 0 auto;
-	align-self: center;
-	padding-top: 0px;
-	padding-bottom: 5px;
-
-}
-
 form{
-
+	display: flex;
 	background: #79C753;
 	margin: 0 auto;
 	align-self: center;
 	height: 100px;
 	opacity: 0.7;
 	width: 500px;
+	justify-content: center;
+
 
 	
 }
 
 fieldset{
 	padding-top: -10;
+	border: none;
+
 }
 
+legend{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+}
 
 
 .search{
@@ -51,6 +51,38 @@ fieldset{
 }
 
 button{
-
+width: 100px;
+background-color:green ;
+opacity: 1.5;
+height: 30px;
+color: white;
+font-weight: bolder;
+font-size:20px;
 	
 }
+
+
+@media only screen and (min-width: 600px) {
+    
+   form{
+
+
+   	min-width: 700px;
+   }
+    
+    
+    
+    }
+
+
+    @media only screen and (max-width: 600px) {
+    
+   form{
+
+
+   	min-width: 200px;
+   }
+    
+    
+    
+    }
