@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/FACN3/mashrou-leila/issues"
   },
-  "homepage": "https://github.com/FACN3/mashrou-leila#readme"
+  "homepage": "https://github.com/FACN3/mashrou-leila#readme",
+  "dependencies": {
+    "tape": "^4.8.0"
+  }
 }
