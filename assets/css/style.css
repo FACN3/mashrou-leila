@@ -61,10 +61,23 @@ font-size:20px;
 }
 
 .container{
+	display: flex;
 	margin-top: 100px;
 	height: auto;
 	background:#79C753;
 	opacity: 0.8;
+	align-content: center;
+}
+
+
+span{
+	display: flex;
+	flex-wrap: wrap;
+	font-size:20px;
+	color: white;
+	white-space: nowrap;
+  	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 
