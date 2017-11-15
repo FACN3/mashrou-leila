@@ -1,4 +1,15 @@
-
+body{
+	
+ 
+ background: url(../01.jpg) no-repeat ;	
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+display: flex;
+padding-top: 100px;
+background-size: 250vh;
+}
 
 
 form{
@@ -11,8 +22,9 @@ form{
 	width: 500px;
 	justify-content: center;
 
-
-
+	width: 70%;
+	height: auto;
+	
 }
 
 fieldset{
@@ -32,6 +44,7 @@ legend{
 .search{
 
 
+	width: 60%;
 }
 
 button{
