@@ -18,7 +18,6 @@
 build a simple web app that include two API and use the results to update the DOM.
 
 ## **API's:** (Clickable mages)
----
 
 <a href="https://www.theguardian.com/international">
 <img alt="The Guardian" src="https://icould.com/files/2012/01/guardian-logo-300x53.jpg" width="150">
