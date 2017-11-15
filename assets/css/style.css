@@ -1,7 +1,7 @@
 body{
 	
  
- background: url(../1.JPG) no-repeat ;	
+ background: url(../01.jpg) no-repeat ;	
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
@@ -20,6 +20,8 @@ form{
 	opacity: 0.7;
 	width: 500px;
 	justify-content: center;
+	width: 70%;
+	
 
 
 	
@@ -41,7 +43,7 @@ legend{
 
 .search{
 
-	
+	width: 60%;
 }
 
 button{
