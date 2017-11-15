@@ -1,5 +1,4 @@
-(function() {
-  console.log('hello')
+(function(){
 
   var guardian_key = 'api-key=5ece3fcc-ecb6-44cf-a6b5-ba723185825e';
   var guardian_api = 'https://content.guardianapis.com/search?q=';
@@ -10,11 +9,11 @@
   var wiki_con = document.getElementById("wiki_con");
   var guardian_con = document.getElementById("guardian_con");
 
-  var fetch = function(method, url, callback) {
+  var fetch = function(method, url, callback,render_fucntion) {
     var req = new XMLHttpRequest();
     req.onreadystatechange = function() {
       if (req.readyState == 4 && req.status == 200) {
-         render_guardian(callback(JSON.parse(req.response)));
+         render_fucntion(callback(JSON.parse(req.response)));
       }
     };
     req.open(method, url, true);
@@ -23,15 +22,18 @@
 
 
   document.getElementById('todo_form').addEventListener('submit', function(event) {
+
     event.preventDefault();
+
 
     var search_request = document.getElementById('search').value;
     var twitter_url = "https://welvon-1211.appspot.com/hello?query=" + search_request;
     var guardian_url = guardian_api + search_request + guardian_fields + guardian_key;
 
 
-    //fetch('GET',twitter_url,twitter_filter);
-    fetch('GET', guardian_url, filter_guardian);
+    fetch('GET',twitter_url,filter_twitter,render_twitter);
+    fetch('GET', guardian_url, filter_guardian,render_guardian);
+
   });
 
   function render_guardian(array) {
@@ -53,6 +55,13 @@
       guardian_con.appendChild(link);
       console.log(guardian_con);
     });
+}
+
+  function render_twitter(html_text){
+    twitter_con.innerHTML = s;
+    twttr.widgets.load();
+
+
   }
 
   window.twttr = (function(d, s, id) {
@@ -69,6 +78,4 @@
     };
     return t;
   }(document, "script", "twitter-wjs"));
-
-
 })();
