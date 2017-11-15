@@ -1,4 +1,14 @@
-
+body{
+	
+ 
+ background: url(../1.JPG) no-repeat ;	
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+display: flex;
+padding-top: 100px;
+}
 
 
 form{
