@@ -12,7 +12,7 @@
 
 }
     //parse twiter
-      function twitter_filter(data) {
+      function filter_twitter(data) {
         //var twitter_con = document.getElementById("twitter_con");
         arr_result = data.href;
         var ids = [];
@@ -23,7 +23,6 @@
         for (var i = 0; i < 10; i++) {
           s = s.concat(ids[i]);
         }
-        //twitter_con.innerHTML = s;
-        //twttr.widgets.load();
+
         return s;
       }
