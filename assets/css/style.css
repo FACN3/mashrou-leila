@@ -8,6 +8,7 @@ body{
 background-size:cover;
 display: flex;
 padding-top: 100px;
+background-size: 250vh;
 }
 
 
@@ -21,9 +22,7 @@ form{
 	width: 500px;
 	justify-content: center;
 	width: 70%;
-	
-
-
+	height: auto;
 	
 }
 
