@@ -54,8 +54,9 @@
       var title = document.createElement('span');
       title.textContent = obj.headline;
       link.appendChild(image);
-
+      title.appendChild(link);
       guardian_con.appendChild(title);
+
       guardian_con.appendChild(link);
       //console.log(guardian_con);
     });

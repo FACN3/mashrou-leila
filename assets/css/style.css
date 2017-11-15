@@ -6,9 +6,11 @@ body{
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
-display: flex;
-padding-top: 100px;
+background-attachment: fixed;
 background-size: 250vh;
+padding-top: 100px;
+
+
 }
 
 
@@ -21,9 +23,9 @@ form{
 	opacity: 0.7;
 	width: 500px;
 	justify-content: center;
-
 	width: 70%;
 	height: auto;
+	
 	
 }
 
@@ -58,6 +60,26 @@ font-size:20px;
 
 }
 
+.container{
+	display: flex;
+	margin-top: 100px;
+	height: auto;
+	background:#79C753;
+	opacity: 0.8;
+	align-content: center;
+}
+
+
+span{
+	display: flex;
+	flex-wrap: wrap;
+	font-size:20px;
+	color: white;
+	white-space: nowrap;
+  	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 
 @media only screen and (min-width: 601spx) {
 
@@ -81,3 +103,4 @@ font-size:20px;
 
 
     }
+
