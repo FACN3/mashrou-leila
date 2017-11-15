@@ -6,9 +6,10 @@ body{
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
+background-size: 250vh;
 display: flex;
 padding-top: 100px;
-background-size: 250vh;
+
 }
 
 
@@ -23,6 +24,7 @@ form{
 	justify-content: center;
 	width: 70%;
 	height: auto;
+	position: fixed;
 	
 }
 
@@ -56,6 +58,11 @@ font-size:20px;
 	
 }
 
+.container{
+	height: 100px;
+	background:#79C753;
+}
+
 
 @media only screen and (min-width: 601spx) {
     
@@ -79,4 +86,5 @@ font-size:20px;
     
     
     }
+
 
