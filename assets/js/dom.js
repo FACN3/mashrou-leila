@@ -34,7 +34,7 @@
     var wikipedia_url = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrsearch=" + search_request +
       "&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=2&exlimit=max&origin=*&pithumbsize=500";
 
-    //fetch('GET',twitter_url,filter_twitter,render_twitter);
+    fetch('GET',twitter_url,filter_twitter,render_twitter);
     fetch('GET', guardian_url, filter_guardian, render_guardian);
     fetch('GET', wikipedia_url, filter_wikipedia, render_wikipedia);
 
@@ -75,7 +75,7 @@
 
       var wikicontent = document.createElement('span');
       wikicontent.textContent = obj.content;
-      var wikititle = document.createElement('h2');
+      var wikititle = document.createElement('span');
       wikititle.textContent = obj.title;
 
 

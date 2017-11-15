@@ -66,19 +66,52 @@ font-size:20px;
 	height: auto;
 	background:#79C753;
 	opacity: 0.8;
+	border-radius: 1%;
+	flex-direction: row;
 	align-content: center;
+	justify-content: space-around;
+	
+
 }
 
 
-span{
+
+.guardians{
+	max-width: 30%;
+}
+.twitter{
+	max-width: 30%;
+}
+.wikipedia{
+	max-width: 30%;
+}
+
+
+.guardians  span{
 	display: flex;
 	flex-wrap: wrap;
-	font-size:20px;
-	color: white;
-	white-space: nowrap;
+	color: black;
+	font-size:15px;
   	overflow: hidden;
 	text-overflow: ellipsis;
+	border:transparent 10px;
 }
+
+.guardians img{
+	max-width: 300px;
+}
+
+
+.wikipedia span{
+	display: flex;
+	flex-wrap: wrap;
+	color: black;
+	font-size:15px;
+  	
+
+}
+
+
 
 
 @media only screen and (min-width: 601spx) {
@@ -100,6 +133,17 @@ span{
    	min-width: 200px;
    }
 
+
+.container{
+	display: flex;
+	margin-top: 100px;
+	height: auto;
+	background:#79C753;
+	opacity: 0.8;
+	border-radius: 1%;
+	flex-direction: column;
+
+}
 
 
     }
