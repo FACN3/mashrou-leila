@@ -43,6 +43,10 @@
   function render_guardian(array) {
     //  console.log(array);
     //console.log(guardian_con);
+   image_guardian=document.createElement('img');
+   image_guardian.src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/The_Guardian_2.svg/2000px-The_Guardian_2.svg.png";
+   guardian_con.appendChild(image_guardian);
+
     array.forEach(function(obj) {
       //  console.log(Object.keys(obj));
       //console.log(Object.values(obj));
@@ -63,21 +67,38 @@
   }
 
   function render_twitter(html_text) {
-    twitter_con.innerHTML = s;
+var image_twitter =document.createElement('img');
+ image_twitter.src="http://clipart-library.com/image_gallery2/Twitter-PNG-HD.png";
+//
+   //twitter_con.appendChild(image_twiiter);
+  //var  div1=document.createElement('div')
+
+    //dvi1.innerHTML = s;
+    twitter_con.innerHTML=s;
     twttr.widgets.load();
 
 
   };
 
+
+
   function render_wikipedia(data) {
+var  image_wikipedia=document.createElement('img');
+    image_wikipedia.src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wikipedia-logo-v2-simple.svg/250px-Wikipedia-logo-v2-simple.svg.png";
+
+    //   image_wikipedia.style.width="500px";
+      // image_wikipedia.style.height="400px";
+
+
+    wiki_con.appendChild(image_wikipedia);
 
     data.forEach(function(obj) {
-
+        var link= document.createElement('a')
+        link.href=obj.url;
       var wikicontent = document.createElement('span');
       wikicontent.textContent = obj.content;
       var wikititle = document.createElement('span');
       wikititle.textContent = obj.title;
-
 
 
       //var wikiphoto = document.createElement('img');
@@ -90,8 +111,9 @@
         }
 
        wikititle.appendChild(wikicontent);
+       link.appendChild(wikititle);
 
-      wiki_con.appendChild(wikititle);
+      wiki_con.appendChild(link);
     });
 
 
