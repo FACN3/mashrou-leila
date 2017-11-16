@@ -36,7 +36,9 @@ function filter_wikipedia(data) {
 
       var extract = {
         'title': object[key].title,
-        'content': object[key].extract };
+        'content': object[key].extract,
+          'url':"http://en.wikipedia.org/wiki?curid="+object[key].pageid 
+          };
 
         if(object[key].thumbnail){
           extract.image=object[key].thumbnail.source;
