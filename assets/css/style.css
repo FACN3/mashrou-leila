@@ -116,7 +116,7 @@ font-size:20px;
 }
 
 
-@media only screen and (min-width: 601spx) {
+@media only screen and (min-width: 601px) {
 
    form{
    	min-width: 700px;
@@ -127,7 +127,7 @@ font-size:20px;
     }
 
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 900px) {
 
    form{
 
